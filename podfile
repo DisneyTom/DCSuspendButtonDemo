@@ -1,0 +1,4 @@
+platform:ios,'8.0'
+target 'DCSuspendButtonDemo' do
+pod 'FLAnimatedImage', '~> 1.0.12'
+end

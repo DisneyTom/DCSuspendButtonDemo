@@ -1,0 +1,16 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0.12)
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+
+PODFILE CHECKSUM: d8796f70306e1469ddbce79b5df9486399896920
+
+COCOAPODS: 1.9.0.beta.2
