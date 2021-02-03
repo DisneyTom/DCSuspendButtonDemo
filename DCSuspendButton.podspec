@@ -11,7 +11,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/DisneyTom/DCSuspendButtonDemo.git", :tag => "v1.0.0" }
   spec.source_files  = "DCSuspendButtonDemo/DCSuspendButton/**/*.{h,m}"
   spec.dependency 'FLAnimatedImage', '~> 1.0.12'
-  spec.resource  = "icon.png"
   spec.resources = "DCSuspendButtonDemo/Source/*.bundle"
   spec.requires_arc = true
 end
