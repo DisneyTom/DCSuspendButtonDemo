@@ -10,15 +10,16 @@
 #import "DCSuspendButton/DCSuspendButton.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong) NSString * aaaa;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _aaaa = @"aaaaaaaa";
     ///背景颜色
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
