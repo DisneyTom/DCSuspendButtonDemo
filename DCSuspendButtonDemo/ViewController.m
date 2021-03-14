@@ -11,6 +11,7 @@
 
 @interface ViewController ()
 @property (nonatomic,strong) NSString * aaaa;
+@property (nonatomic, strong) NSString *bbbb;
 @end
 
 @implementation ViewController
