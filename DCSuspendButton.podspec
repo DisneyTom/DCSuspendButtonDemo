@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "DCSuspendButton"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "一种自定义的浮窗，可以自由拖动，松手后视拖动区域吸附在左侧或者右侧"
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"
@@ -13,4 +13,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'FLAnimatedImage', '~> 1.0.12'
   spec.resources = "DCSuspendButtonDemo/Source/*.bundle"
   spec.requires_arc = true
+  spec.dependency  'AFNetworking', '~> 3.1.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
 end
